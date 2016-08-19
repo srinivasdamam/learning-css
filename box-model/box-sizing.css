@@ -1,0 +1,21 @@
+.group .article{
+  box-sizing: border-box;
+  width: 33.33%;
+  padding: 20px;
+}
+
+.article{
+  margin-left: 5%;
+}
+
+.article.blue{
+  background-color: blue;
+}
+
+.article.red{
+  background-color: red;
+}
+
+.article.green{
+  background-color: green;
+}
