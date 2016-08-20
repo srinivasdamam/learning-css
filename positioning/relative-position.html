@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning CSS...</title>
+    <style>
+      div.boxes div{
+        display: inline-block;
+        width: 33.33%;
+        margin: 0;
+        padding: 20px;
+        color: #FFF;
+        box-sizing: border-box;
+      }
+      div.red-box{
+        background-color: rgb(255, 0, 0);
+      }
+      div.green-box{
+        position: relative;
+        top: 10px;
+        left: 10px;
+        background-color: rgb(0, 255, 0);
+      }
+      div.blue-box{
+        position: absolute;
+        top: 0;
+        background-color: rgb(0, 0, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="red-box">Box 1</div>
+      <div class="green-box">Box 2</div>
+      <div class="blue-box">Box 3</div>
+    </div>
+  </body>
+</html>
